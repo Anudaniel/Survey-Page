@@ -1,0 +1,126 @@
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: image(https://www.google.com/imgres?imgurl=https%3A%2F%2Ffriconix.com%2Fpng%2Ffi-xtluhl-magnifying-glass-thin.png&imgrefurl=https%3A%2F%2Ffriconix.com%2Ficon%2Ffi-xtluhl-magnifying-glass-thin%2F&tbnid=vsTVL8qHfcjdpM&vet=12ahUKEwiNpYu7sdfrAhVD3hoKHSb0ACwQMygFegUIARC-AQ..i&docid=cTtjtn8vEMp8aM&w=256&h=256&q=search%20icon%20png&hl=en&ved=2ahUKEwiNpYu7sdfrAhVD3hoKHSb0ACwQMygFegUIARC-AQ);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+body {
+  background-color: #535204;
+}
+h1 {
+  font-family: monospace;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 30px
+}
+h2 {
+  text-align: left;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px #CBD30C;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: monospace;
+  text-align: right;
+  font-size: 15px
+  text-align-last: center;
+  text-indent: 50px;
+}
+a:-webkit-any-link {
+    font-family: cursive;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: right;
+
+  }
+
+/* Style the element with the class "button" */
+.botton {
+  color: #9D2503;
+  background-color: #F1F1BO;
+  padding: 1px 6px
+  border-width: 2px
+  border-color: #DF8543;
+  float: right;
+
+}
+footer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  white-space: normal;
+  background-color: #62760C;
+  padding: 10px;
+  width: auto;
+
+
+}
+#search {
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+}
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #523906;
+}
+li {
+  display: block;
+  float: left;
+  padding: 15px 20px;
+  background-color: #523906;
+  color: #D49A89;
+  text-align: center;
+}
+li:hover {
+  background-color: #111;
+}
